@@ -327,7 +327,7 @@ class PlayerDescription(Description):
 #pass description for logistic model
 class PassDescription_logistic(Description):
 
-        output_token_limit = 500
+        output_token_limit = 400
 
         @property
         def gpt_examples_path(self):
@@ -440,7 +440,7 @@ class PassDescription_logistic(Description):
  #class description of features for xNN
 class PassDescription_xNN(Description):
 
-        output_token_limit = 600
+        output_token_limit = 400
 
         @property
         def gpt_examples_path(self):
