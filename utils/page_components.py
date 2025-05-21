@@ -94,8 +94,6 @@ def add_page_selector():
     # page = pages[selected_page]
     # # page.show()  # Assume each page has a `show()` function to display its content
 
-    st.page_link("pages/shots.py", label="Shot xG Analysis")
-    #st.page_link("pages/eval.py", label="Shot Evaluation")
     st.page_link("pages/passes.py", label="Pass Analysis")
     
 
