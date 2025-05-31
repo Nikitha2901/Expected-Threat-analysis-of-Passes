@@ -18,7 +18,7 @@ streamlit run app.py
 ```
 Once you have made changes to the code, save, move focus to the streamlit tab, then press c to clear caches if necessary, then r to rerun. 
 
-You also need to have access to GPT API to use this package. Alternatively, you need access to Gemini API but that requires changes to the [.streamlit/secrets.toml](.streamlit/secrets.toml) file (see below).
+you need access to Gemini API but that requires changes to the [.streamlit/secrets.toml](.streamlit/secrets.toml) file (see below).
 
 ## How does it work?
 ### App
