@@ -6,7 +6,7 @@ This project focuses on analyzing the safety and risk associated with passes mad
 
 - Logistic Regression
 - Explainable Neural Network with unique features
-- Explainable Neural Network using combined features
+- Explainable Neural Network using combination of features
 
 ## Environment set up
 This application was made with Streamlit.  To run locally, first create .streamlit/secrets.toml with keys, etc... then run:
