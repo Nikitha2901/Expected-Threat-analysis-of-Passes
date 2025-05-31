@@ -2,11 +2,11 @@
 
 ## Description
 
-This project is about analysing the how safe or dangrerous the passes happening in final-third could be. The pass is classified as safe or dangerous based Expected goal(xG) whose threshold is 0.06. And the metric to analyse the threat is Expected Threat(xT) which is probability of pass being a shot. The different model approaches used are : 
+This project focuses on analyzing the safety and risk associated with passes made in the final third of the pitch. Each pass is classified as either safe or dangerous based on its Expected Goal (xG) value, using a threshold of 0.06. To evaluate the level of threat posed by a pass, the Expected Threat (xT) metric is used, which represents the probability of the pass leading to a shot. The modeling approaches employed in this study include:
 
-- Logistic regression
-- Explainable neural network with unique features
-- Explainable neural network with combination of features
+- Logistic Regression
+- Explainable Neural Network with unique features
+- Explainable Neural Network using combined features
 
 ## Environment set up
 This application was made with Streamlit.  To run locally, first create .streamlit/secrets.toml with keys, etc... then run:
